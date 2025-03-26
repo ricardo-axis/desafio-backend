@@ -13,7 +13,7 @@
 
 ## 📚 Introdução
 
-Este é um desafio `Hands-On` que tem como objetivo testar suas habilidades como `Backend Developer` com conhecimentos básicos em `DevOps`. O desafio faz parte do processo seletivo da [Axis Mobfintech](https://axis-mobfintech.com/).
+Este é um desafio `Hands-On` que tem como objetivo testar suas habilidades como `Backend Developer` com conhecimentos intermediários em `DevOps`. O desafio faz parte do processo seletivo da [Axis Mobfintech](https://axis-mobfintech.com/).
 
 ## 🚀 Cenário
 
@@ -41,8 +41,10 @@ A API deve fornecer serviços REST para:
 
 - CRUD (Create, Read, Update, Delete) de **Cooperativas** (exclusão lógica);
 - CRUD de **Cooperados** (exclusão lógica);
-  - A pesquisa pode ser feita pelo **número da conta corrente** ou **nome do cooperado**;
-- CRUD de **Contatos Favoritos** (exclusão física).
+  - A pesquisa pode ser feita pelo **número da conta corrente**, **nome do cooperado** ou **filtros combinados**;
+- CRUD de **Contatos Favoritos** (exclusão física);
+- Implementação de **paginação e ordenação** nas consultas;
+- Retorno padronizado de erros e mensagens para o cliente.
 
 ## 📌 Instruções e Sugestões
 
@@ -54,17 +56,22 @@ Espera-se que:
 - A API seja documentada utilizando **Swagger/OpenAPI 3.0**;
 - O sistema utilize **validação de dados** no backend;
 - Padronização das mensagens de erro e sucesso da API;
-- Os endpoints sigam as boas práticas de **RESTful APIs**.
+- Os endpoints sigam as boas práticas de **RESTful APIs**;
+- Implementação de **autenticação e autorização** utilizando JWT ou OAuth2;
+- Aplicação de princípios de **SOLID e Clean Code**;
+- A API seja capaz de lidar com **concorrência e transações**.
 
 ## 💡 Diferenciais (itens opcionais)
 
 - Utilização de padrões arquiteturais como **DDD, Clean Architecture ou Hexagonal**;
-- Implementação de **Testes Unitários** e/ou **Testes de Integração**;
-- Uso de **JWT** ou outro método seguro de autenticação;
-- Configuração de **Docker** e/ou **Docker Compose** para facilitar a execução local;
+- Implementação de **Testes Unitários, Testes de Integração e Testes de Carga**;
+- Uso de **RabbitMQ, Kafka ou outra solução de mensageria** para comunicação assíncrona;
+- Configuração de **Docker** e **Docker Compose** para facilitar a execução local;
 - Configuração de um pipeline de **CI/CD** básico utilizando GitHub Actions ou outra ferramenta;
 - Deploy automatizado para um ambiente cloud (exemplo: AWS, Azure ou GCP);
-- Configuração de **monitoramento** ou **logs estruturados**.
+- Configuração de **monitoramento** com Prometheus, Grafana ou outra ferramenta;
+- Implementação de **cache** para otimizar consultas;
+- Configuração de logs estruturados e centralizados com ELK Stack, Datadog ou outro serviço.
 
 ## ✔️ Documentação, Organização e Entrega
 
@@ -74,6 +81,7 @@ Espera-se que:
   - Instruções para rodar o projeto localmente;
   - Instruções para rodar o projeto com Docker (se aplicável);
   - Como executar os testes (se houver);
+  - Configuração de ambiente para desenvolvimento e produção;
 - Adicionar um `.gitignore` adequado para o projeto;
 - O **prazo limite para entrega é 27/03/2025 às 23h59**.
 
