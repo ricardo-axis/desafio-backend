@@ -74,16 +74,17 @@ Espera-se que:
 - Configuração de logs estruturados e centralizados com ELK Stack, Datadog ou outro serviço.
 
 ## ✔️ Documentação, Organização e Entrega
-
-- O projeto deve ser entregue via **repositório Git** (GitHub, GitLab ou Bitbucket);
-- Criar um arquivo `README.md` contendo:
+- Para a entrega abra um `Pull Request` para a branch `main` para análise e possível aprovação.
+- Crie um arquivo `ENTREGA.md` contendo:
   - Tecnologias utilizadas;
   - Instruções para rodar o projeto localmente;
   - Instruções para rodar o projeto com Docker (se aplicável);
   - Como executar os testes (se houver);
   - Configuração de ambiente para desenvolvimento e produção;
 - Adicionar um `.gitignore` adequado para o projeto;
-- O **prazo limite para entrega é 27/03/2025 às 23h59**.
+- O **prazo limite para entrega deste desafio termina em 10/04/2025 às 23h59min**.
+  - ***Obs.**: as entregas realizadas após este limite não serão validadas. Apenas os commits feitos até o prazo estabelecido.*
+
 
 ## ❓ Dúvidas?
 
